@@ -1,0 +1,235 @@
+/*__ Georgian Fonts Integration
+______________________________________________________________________________*/
+
+@font-face {
+    font-family: 'ArialGeoCaps';
+    src: url('../fonts/ArialGeoCaps.eot');
+    src: url('../fonts/ArialGeoCaps.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ArialGeoCaps.woff2') format('woff2'),
+    url('../fonts/ArialGeoCaps.woff') format('woff'),
+    url('../fonts/ArialGeoCaps.ttf') format('truetype'),
+    url('../fonts/ArialGeoCaps.svg#ArialGeoCaps') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArialGeo';
+    src: url('../fonts/ArialGeo.eot');
+    src: url('../fonts/ArialGeo.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ArialGeo.woff2') format('woff2'),
+    url('../fonts/ArialGeo.woff') format('woff'),
+    url('../fonts/ArialGeo.ttf') format('truetype'),
+    url('../fonts/ArialGeo.svg#ArialGeo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*__ Themify Icons Font Integration
+______________________________________________________________________________*/
+
+@import url('themify-icons.css');
+
+/*__ Main Changed Styles for Admin Panel
+______________________________________________________________________________*/
+
+body {
+  margin: 0;
+  font-family: 'ArialGeo';
+  font-size: 0.9rem;
+  color: #212019;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "ArialGeoCaps", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.sidebar-dark-primary .nav-sidebar > .nav-item > .nav-link.active, .sidebar-light-primary .nav-sidebar > .nav-item > .nav-link.active {
+    background-color: #ec9537;
+}
+
+.btn {
+    padding: 0.4rem 0.75rem;
+    font-size: 0.9rem;
+    margin: 0 5px 0 0;
+}
+
+.btn-default {
+  color: #000;
+  background-color: #e8e8e8;
+  border-color: #e8e8e8;
+}
+
+.btn-default:hover,
+.btn-default:active,
+.btn-default.hover {
+  color: #000;
+  background-color: #dbdbdb;
+  border-color: #dbdbdb;
+}
+
+.btn-primary {
+    background-color: #34495e;
+    border-color: #34495e;
+}
+
+.btn-primary:hover {
+    background-color: #27619a;
+    border-color: #27619a;
+}
+
+.btn-warning {
+  color: #FFFFFF;
+  background-color: #ec9537;
+  border-color: #ec9537;
+}
+
+.btn-warning:hover {
+  color: #FFFFFF;
+  background-color: #e17c0f;
+  border-color: #e17c0f;
+}
+
+.btn-danger {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+}
+
+.btn-danger:hover {
+    background-color: #b73b2f;
+    border-color: #b73b2f;
+}
+
+.btn-success {
+    background-color: #2f82b9;
+    border-color: #2f82b9;
+}
+
+.btn-outline-info {
+    color: #FFFFFF;
+    background-color: #34495e;
+    border-color: #34495e;
+}
+
+.btn-outline-danger {
+    color: #FFFFFF;
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+}
+
+.bg-success {
+    background-color: #DF6839;
+}
+
+.bg-warning {
+    background-color: #ec9537;
+}
+
+.bg-primary {
+    background-color: #2f82b9 !important;
+}
+
+.small-box h3 {
+    color: #FFFFFF;
+}
+
+.small-box p {
+    font-family: 'ArialGeoCaps';
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.small-box .icon {
+    color: #FFFFFF;
+    z-index: 0;
+}
+
+.main-header .navbar-nav .nav-item {
+    margin: 0 0 0 5px;
+}
+
+.content-header .breadcrumb {
+    font-size: 1rem;
+}
+
+.bg-gradient-success {
+    background-color: #2f82b9; 
+}
+
+.bg-gradient-success.btn:hover {
+  border-color: #34495e !important;
+  color: #ffffff;
+}
+
+.content-header h1 {
+    font-family: 'ArialGeoCaps', sans-serif;
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+
+.card-primary.card-outline {
+    border-top: 2px solid #34495e;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #000000;
+    background-color: #d1d1d1;
+    border-color: #d1d1d1;
+}
+
+.page-link {
+    color: #888888;
+    background-color: #fbfbfb;
+    border: 1px solid #d1d1d1;
+}
+
+.page-link:hover {
+    color: #000000;
+    background-color: #d1d1d1;
+    border-color: #d1d1d1;
+}
+
+.action-item-menu {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    margin-top: 6px;
+}
+
+.edit-item-menu {
+    background-color: #2f82b9;
+    color: #fff;
+    border-radius: 0.25rem;
+}
+
+.action-item-menu a:hover {
+    color: #ffffff;
+    background-color: #34495e;
+}
+
+.remove-item-menu {
+    background-color: #e74c3c;
+    border-radius: 0.25rem;
+}
+
+.remove-item-menu:hover {
+    background-color: #9f2c20 !important;
+}
+
+.card-blue:not(.card-outline) .card-header {
+    background-color: transparent;
+}
+
+.alert-success {
+    background: #2f82b9;
+    border-color: #2f82b9;
+}
+
+.custom-file-input:lang(en) ~ .custom-file-label::after {
+    content: "\e6a7";
+    font-family: 'themify';
+    font-size: 1.2rem;
+}

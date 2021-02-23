@@ -1,0 +1,16 @@
+// Fonts
+/*@import url('https://fonts.googleapis.com/css?family=Nunito');*/
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+/*@import '~bootstrap/scss/bootstrap';*/
+@import '../grid-images-gallery/assets/externals/font-awesome/css/font-awesome.min.css';
+@import '../grid-images-gallery/assets/customs/css/gallery.css';
+@import "../lightgallery/dist/css/lightgallery.css";
+
+@import './front';
+@import './media';
+@import './media-work';
+@import './media-posts';

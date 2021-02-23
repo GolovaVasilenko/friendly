@@ -1,0 +1,96 @@
+.single-post-container .single-post-content {
+    box-sizing: border-box;
+    padding: 0 16px;
+}
+@media all and (max-width: 1620px) {
+    .social-block {
+        right: -15%;
+    }
+    .blog-main-container .posts-items .post-items-row {
+        margin-bottom: 154px;
+    }
+    .blog-main-container .posts-items .post-item {
+        margin-bottom: 0;
+    }
+}
+@media all and (max-width: 1550px) {
+    .social-block {
+        right: -16%;
+    }
+    .blog-main-container .posts-items .post-item .post-info {
+        width: 308px;
+    }
+    .blog-main-container .posts-items .post-item {
+        width: 50%;
+    }
+}
+@media all and (max-width: 1400px) {
+    .blog-main-container .posts-items .post-item .post-info {
+        width: 42%;
+    }
+}
+@media all and (max-width: 1320px) {
+    .blog-main-container .posts-items .post-item {
+        flex-direction: column;
+    }
+    .blog-main-container .posts-items .post-item .post-info {
+        width: 92%;
+        padding: 72px 16px 36px;
+    }
+    .blog-main-container .posts-items .post-item {
+        margin-bottom: 0;
+    }
+    .blog-main-container .posts-items .post-items-row {
+        margin-bottom: 154px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .single-post-container .single-post-content .single-post-body .image-wrapper-single {
+        float: none;
+        width: 100%;
+        height: auto;
+        margin: 0 24px 32px 0;
+    }
+    .blog-main-container .posts-items .post-items-row {
+        flex-direction: column;
+    }
+    .blog-main-container .posts-items .post-item {
+        width: 100%!important;
+        margin-bottom: 54px;
+    }
+    .blog-main-container .posts-items .post-item .post-image {
+        width: 95%;
+        height: auto;
+        margin-left: 16px;
+    }
+    .blog-main-container .posts-items .post-item .image-wrapp .bt-rm {
+        bottom: 52px;
+        right: 214px;
+        left: auto;
+        top: auto;
+    }
+
+    .blog-main-container .posts-items .post-item .image-wrapp:after {
+        display: none;
+        width: 0;
+        height: 0;
+    }
+    .image-wrapper-single {
+        width: 90%;
+    }
+    .single-post-container .single-post-content .single-post-body .image-wrapper-single:before {
+        width: 0;
+        height: 0;
+    }
+    .single-post-container .system-single-container:before {
+        width: 0;
+        height: 0;
+        display: none;
+    }
+    .single-post-container .single-post-content .single-post-body .image-wrapper-single img {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+

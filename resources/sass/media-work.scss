@@ -1,0 +1,101 @@
+@media  all and (max-width: 1500px) {
+    .filter-container .form-container #form-filter .selection {
+        min-width: 240px;
+    }
+    .filter-container .form-container {
+        width: 1198px;
+    }
+}
+@media all and (max-width: 1320px) {
+    .main-catalog-block .catalog-items .catalog-item {
+        width: 340px;
+    }
+    .main-single-container .work-single-root .work-sinle-image {
+        width: 47%;
+    }
+}
+@media all and (max-width: 1220px) {
+    .social-block {
+        display: none;
+    }
+    .filter-container .form-container {
+        width: 1112px;
+    }
+    .filter-container .form-container #form-filter .selection {
+        min-width: 100%;
+    }
+    .main-single-container .work-single-root .work-sinle-image {
+        width: 55%;
+    }
+}
+@media all and (max-width: 1140px) {
+    .filter-container .form-container {
+        width: 100%;
+    }
+    .filter-container .form-container #form-filter {
+        flex-wrap: wrap;
+    }
+    .main-catalog-block .catalog-items .catalog-item {
+        width: 310px;
+    }
+}
+@media all and (max-width: 1024px) {
+    .main-catalog-block .catalog-items .catalog-item {
+        width: 290px;
+    }
+}
+@media all and (max-width: 980px) {
+    .main-catalog-block .catalog-items .catalog-item {
+        width: 375px;
+    }
+    .filter-container .form-container #form-filter {
+        flex-direction: column;
+    }
+    .filter-container .form-container #form-filter .gallery-filter {
+        width: 93%;
+    }
+    .main-single-container .work-single-root {
+        flex-direction: column;
+    }
+    .main-single-container .work-single-root .work-sinle-image {
+        width: 100%;
+    }
+    .main-single-container .work-single-root .work-single-img-box {
+        width: 100%;
+        margin-right: 0;
+    }
+    .main-single-container .work-single-root .img-bg {
+        width: 100%;
+    }
+    .main-single-container .work-single-root .work-single-img-box img {
+        width: 100%;
+    }
+    .main-single-container .work-single-root .img-bg:before {
+        width: 0;
+        height: 0;
+    }
+    .work-single-info {
+        span {
+            line-height: 50px;
+        }
+    }
+}
+@media all and (max-width: 768px) {
+    .catalog-page-container .header-container {
+        flex-direction: column;
+        padding: 30px 48px 46px 30px;
+    }
+    .catalog-page-container .header-container .header-block-text h1 {
+        margin-bottom: 28px;
+    }
+    .main-catalog-block .catalog-items .catalog-item {
+        width: 93%;
+    }
+    .main-catalog-block .catalog-items .catalog-item .img-box img {
+        max-width: none;
+        width: 100%;
+    }
+}
+@media all and (max-width: 640px) {
+
+}
